@@ -1,0 +1,38 @@
+                                                          FLIGHT RESERVATION(Revison 1.0)
+
+
+Scope of The Project:
+  
+This system offers customers to create account in our web application and already existing customer can just login from our login page. 
+Also, the system supports sorting flights by departure date. 
+Finally, it will take customers to payment page their customer can book the ticket, 
+the system will also support selection of which class the seat belongs to and etc. 
+
+Customers can:
+
+•	Create an account.
+•	Search for available flights for a particular city and departure
+•	Book tickets in the class of their choice
+
+Administrators can:
+
+•	Add/Modify flight schedules.
+•	Viewing the booked tickets.
+
+USECASES:
+
+•	User Registration and Login Use Case
+•	Search Flights Use Case
+•	Create Reservation Use Case 
+
+Software Requirements:
+
+JAVA
+HTML AND CSS
+JAVASCRIPT AND TYPESCRIPT
+ANGULAR
+JPA AND HIBERNATE
+SPRING
+MAVEN
+SQL 
+																  
