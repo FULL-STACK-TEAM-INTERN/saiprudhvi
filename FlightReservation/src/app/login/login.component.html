@@ -1,0 +1,83 @@
+<div class="container-fluid banner">
+<<<<<<< HEAD
+    <div class="container side p-4 my-3  text-white">
+        <form #loginform="ngForm" (ngsubmit)="loginUser()" class="container">
+            <h2>Member Login</h2>
+        
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control"  placeholder="Enter email" name="email"[(ngModel)]="user.email"
+              required pattern="^[a-ZA-z0-9+_,-]+@[a-ZA-z0-9.-]+$"
+              required #email="ngModel" [class.is-invalid]="email.invalid && email.touched">
+
+              <!--<small class="text-danger" [class.d-none]="email.valid || email.untouched">Email is required field</small>-->
+
+              <div *ngIf="email.errors && (email.invalid && email.touched)">
+                  <small class="text-danger" *ngIf="email.errors.required">Email is required field</small>
+                  <small class="text-danger" *ngIf="email.errors.pattern">Enter the valid emailid</small>
+              </div>
+            </div>
+        
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control"  placeholder="Enter password" name="password"[(ngModel)]="user.password"
+               #password="ngModel" [class.is-invalid]="password.invalid && password.touched">
+              <div>
+              <small class="text-danger" [class.d-none]="password.valid || password.untouched">Password is required field</small>
+              </div>
+            </div>
+
+            <!--user not found msg-->
+            <small class="text-danger">{{msg}}</small>
+
+            <div class="checkbox">
+                <label><input type="checkbox" name="remember">Remember me</label>
+            </div>
+            
+            <button [disabled]="loginform.form.invalid" type="submit" class="btn btn-info">Login</button>
+
+            <div>
+              <small class="float-right" [routerLink]="['/registration']">Not a user? register here</small>
+            </div>
+
+          </form>
+        </div>
+    </div>
+=======
+<div class="container  side p-3 my-3  text-white" >
+<form #loginform="ngForm" (ngSubmit)="loginUser()" class="container">
+<h2>Member Login</h2>
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control"  placeholder="Enter email" name="email" [(ngModel)]="user.email"
+      required #email="ngModel" [class.is-invalid]="email.invalid && email.touched"
+      required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"> <!--we can use propertities of ng model and also add pattern-->
+
+      <div *ngIf= "email.errors && (email.invalid && email.touched) ">
+        <!--for required-->
+        <small class="text-danger" *ngIf="email.errors.required">Email-id is reguired field</small>
+        <!-- it is for pattern-->
+        <small class="text-danger" *ngIf="email.errors.pattern">Enter the valid Email-id</small>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control"  placeholder="Enter password" name="password" [(ngModel)]="user.password"
+      required #password="ngModel" [class.is-invalid]="password.invalid && password.touched">
+
+      <small class="text-danger" [class.d-none]="password.valid || password.untouched">Password is reguired field</small>
+    </div>
+    <div class="text-danger">{{msg}}</div><!--red text class from bootstrap (text-danger)-->
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-info">Login</button>
+    <div>
+      <small class="float-right" [routerLink]="['/registration']"> New user ? register here</small>
+    </div>
+  </form>
+  <!--<small class="float-right" (click)="gotoregistration()"> New user ? register here</small>-->
+  <!--bootstrap class to float right-->
+  <!--or-->
+</div>
+>>>>>>> 2fbbfd6 (Practice Code)

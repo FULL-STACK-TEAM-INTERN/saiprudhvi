@@ -1,0 +1,33 @@
+<div>
+<div class="container">
+  <h2>Flight List</h2>     
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Flight Number</th>
+        <th>Operating Airlines</th>
+        <th>Departure City</th>
+        <th>Arrival City</th>
+        <th>Date Of Departure</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let flight of flightlist">
+        <th>{{flight.flightNumber}}</th>
+        <th>{{flight.operatingAirlines}}</th>
+        <th>{{flight.departureCity}}</th>
+        <th>{{flight.arrivalCity}}</th>
+        <th>{{flight.dateOfDeparture}}</th>
+      <td><!--data cell-->
+        <button type="button" class="btn btn-primary" [routerLink]="['/']">Edit</button>
+        <button type="button" class="btn btn-info" [routerLink]="['/']">View</button>
+        <button type="button" class="btn btn-danger" [routerLink]="['/']">Delete</button>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" class="btn btn-success" [routerLink]="['/admin-add-flight']">Add new Flight</button>
+</div>
+</div>
+
