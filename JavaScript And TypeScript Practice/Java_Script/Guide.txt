@@ -1,0 +1,49 @@
+Basic Syntax and Structure:(Both TypeScript and JavaScript)
+-----------------------------------------------------------
+ScriptBasic01- Variables
+ScriptBasic02- Let vs Var
+ScriptBasic03- String-interpolation
+ScriptBasic04- Types
+ScriptBasic05- Type-alias
+ScriptBasic06- Union types
+ScriptBasic07- Arithmetic operations
+ScriptBasic08- Conditionals
+ScriptBasic09- Conditional operators
+ScriptBasic10- Compound Conditions
+ScriptBasic11- Loops
+
+Introduction to Functions:(Both TypeScript and JavaScript)
+----------------------------------------------------------
+ScriptFunc01- Basic Function
+ScriptFunc02- Function Arguments
+ScriptFunc03- Arrow Functions
+ScriptFunc04- Function Expressions
+ScriptFunc05- Immediately Invoked Function
+ScriptFunc06- Immediately Invoked Arguments
+
+Object-Oriented Programming:(Both TypeScript and JavaScript)
+-------------------------------------------------------------
+ScriptOops01- Classes
+ScriptOops02- Inheritance
+ScriptOops03- Objects
+ScriptOops04- Interface
+ScriptOops05- Functions With Interface
+ScriptOops06- Class Implements Interface(part-1)
+ScriptOops07- Class Implements Interface(part-2)
+ScriptOops08- Namespaces
+
+Closures:(Both TypeScript and JavaScript)
+-----------------------------------------
+ScriptClos01- Closures Basics
+ScriptClos02- Closures
+ScriptClos03- Scope Chaining
+
+Asynchronous Programming:(Both TypeScript and JavaScript)
+----------------------------------------------------------
+ScriptAsyn01- Callbacks
+ScriptAsyn02- Promises
+
+
+
+
+

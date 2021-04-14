@@ -1,0 +1,14 @@
+var player = ["Dhoni", "Virat", "Rohith"];
+var player_numbers = [7, 18, 45];
+console.log(player);
+console.log(player_numbers);
+var names;
+names = ["sai prudhvi", "siva", "prasad"];
+console.log(names);
+names = "sai prudhvi";
+console.log(names);
+var phoneNumber;
+phoneNumber = [123456, 897645];
+console.log(phoneNumber);
+phoneNumber = 67890;
+console.log(phoneNumber);
