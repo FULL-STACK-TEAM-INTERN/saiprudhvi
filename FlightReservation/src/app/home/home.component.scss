@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding: 0;
+    background:#fff;
+    font-family:sans-serif;
+    color:#ddd;
+    font-size:20px;
+}
+.banner{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)) ,url('/assets/signupimage.jpg');
+    background-position: top;
+    background-size: cover;
+   /* background-attachment: fixed;*/
+   background-repeat: no-repeat;
+
+}
+.banner .navbar{
+    margin-top: 2%;
+}
+.banner .navbar-brand{
+    color: #ddd;
+    font-size:20px;
+    font-weight: 600;
+    margin-left: 3%;
+}
+.banner .nav{
+    margin-right:10%
+}
+.banner .nav li a{
+    color:#ddd;
+    font-size: 15px;
+}
+.banner .info{
+    margin-top:15%;
+    transform: translateY(-15%);
+}
+.banner .info h1{
+    font-size:150%;
+    font-weight: 300;
+    color: #ddd;
+    letter-spacing: 1px;
+}
+.banner .info p{
+    font-size:100%;
+    font-weight: 200;
+    color: #aaa;
+    letter-spacing: 1px;
+}
+
+.banner .info a{
+   display:inline-block;
+   margin-left:50%;
+   transform:translateX(-50%);
+   color:#fff;
+   background:#201417;
+   padding:10px 20px;
+   font-size:100%;
+   font-weight:200;
+   border-radius: 200px;
+   border:1px solid #e67e22;
+}
+.banner .info a:hover{
+    background:#e91e63;
+}
