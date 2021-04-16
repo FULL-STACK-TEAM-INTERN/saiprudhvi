@@ -1,0 +1,21 @@
+
+  .banner{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url('/assets/addflightlist.jpg');
+    background-position: top;
+    background-size: cover;
+   /* background-attachment: fixed;*/
+   background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    margin-top: auto;
+    margin-right:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    max-width: 400px;
+    padding: 16px;
+  }
